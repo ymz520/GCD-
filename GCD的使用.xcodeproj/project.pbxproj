@@ -16,6 +16,7 @@
 		4461C41D1D977CCA00964728 /* GCD___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4461C41C1D977CCA00964728 /* GCD___Tests.m */; };
 		4461C4281D977CCA00964728 /* GCD___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4461C4271D977CCA00964728 /* GCD___UITests.m */; };
 		4461C4371D991C2200964728 /* musicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4461C4361D991C2200964728 /* musicTool.m */; };
+		448A2D781D9CE3C300DE232D /* eViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 448A2D771D9CE3C300DE232D /* eViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4436088B1DAB8BD000CB49AF /* singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = singleton.h; sourceTree = "<group>"; };
+		4436088C1DAB8DDE00CB49AF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4461C3FF1D977CCA00964728 /* GCD的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GCD的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4461C4031D977CCA00964728 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4461C4051D977CCA00964728 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +57,8 @@
 		4461C4291D977CCA00964728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4461C4351D991C2200964728 /* musicTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = musicTool.h; sourceTree = "<group>"; };
 		4461C4361D991C2200964728 /* musicTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = musicTool.m; sourceTree = "<group>"; };
+		448A2D761D9CE3C300DE232D /* eViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eViewController.h; sourceTree = "<group>"; };
+		448A2D771D9CE3C300DE232D /* eViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,8 @@
 		4461C3F61D977CCA00964728 = {
 			isa = PBXGroup;
 			children = (
+				448A2D761D9CE3C300DE232D /* eViewController.h */,
+				448A2D771D9CE3C300DE232D /* eViewController.m */,
 				4461C4011D977CCA00964728 /* GCD的使用 */,
 				4461C41B1D977CCA00964728 /* GCD的使用Tests */,
 				4461C4261D977CCA00964728 /* GCD的使用UITests */,
@@ -115,6 +122,7 @@
 				4461C4021D977CCA00964728 /* Supporting Files */,
 				4461C4351D991C2200964728 /* musicTool.h */,
 				4461C4361D991C2200964728 /* musicTool.m */,
+				4436088B1DAB8BD000CB49AF /* singleton.h */,
 			);
 			path = "GCD的使用";
 			sourceTree = "<group>";
@@ -123,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				4461C4031D977CCA00964728 /* main.m */,
+				4436088C1DAB8DDE00CB49AF /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -282,6 +291,7 @@
 				4461C4371D991C2200964728 /* musicTool.m in Sources */,
 				4461C4071D977CCA00964728 /* AppDelegate.m in Sources */,
 				4461C4041D977CCA00964728 /* main.m in Sources */,
+				448A2D781D9CE3C300DE232D /* eViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +517,7 @@
 				4461C42E1D977CCA00964728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4461C42F1D977CCA00964728 /* Build configuration list for PBXNativeTarget "GCD的使用Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +526,7 @@
 				4461C4311D977CCA00964728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4461C4321D977CCA00964728 /* Build configuration list for PBXNativeTarget "GCD的使用UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +535,7 @@
 				4461C4341D977CCA00964728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

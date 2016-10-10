@@ -12,5 +12,5 @@
 @property(nonatomic,strong)NSMutableArray*musics;
 //instancetype:实例类型；
 //第四步：为了方便的调用
-+(instancetype)sharemusicTool;
++(instancetype)shareinstance;
 @end

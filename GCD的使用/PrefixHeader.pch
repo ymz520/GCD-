@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  GCD的使用
+//
+//  Created by 张 荣桂 on 16/10/10.
+//  Copyright © 2016年 张 荣桂. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "singleton.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

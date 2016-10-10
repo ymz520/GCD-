@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "musicTool.h"
+#import "eViewController.h"
 typedef void (^MyBlock) ();
 typedef int (^numBlock)(int,int);
 @interface ViewController ()
@@ -27,9 +28,11 @@ typedef int (^numBlock)(int,int);
 //    [UIApplication sharedApplication]
 //    采用单例的情况，内存地址不一样
 //    一般单例模式都会提供一个shared方法，代表这个类是共享的
-    musicTool *tool=[musicTool sharemusicTool];
-     musicTool *tool1=[musicTool sharemusicTool];
-    NSLog(@"%p,%p",tool.musics,tool1.musics);
+    musicTool *tool=[musicTool shareinstance];
+     musicTool *tool1=[musicTool shareinstance];
+    eViewController *e1=[eViewController shareinstance];
+    eViewController *e2=[eViewController shareinstance];
+    NSLog(@"%p,%p,%p,%p",tool,tool1,e1,e2);
 //    copy,如果你想copy，copy内部也会调用内部的copy方法
 
 }
